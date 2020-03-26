@@ -336,9 +336,6 @@ public class HidDevice extends purejavahidapi.HidDevice {
 				m_InputReportListener.onInputReport(this, reportID, inputReport, len);
 			}
 		}
-		else {
-			//Log("processInputReport error 1");
-		}
 	}
 
 	private void Log(String sMessage) {
